@@ -1,5 +1,6 @@
 <!-- hide -->
-# The Excuse Generator
+# Second go @ The Excuse Generator 
+# Version 2
 <!-- endhide -->
 
 Disneyland for procrastinators and lazy people. 
