@@ -5,7 +5,7 @@
 
 Code can be found in "src" file.
 
-## Before you being
+## Before you start
 Install the packages by typing: npm install.
 
 ## How do I run my website to see live changes?
@@ -19,29 +19,6 @@ This project is ideal for avoiding someone annoying, it takes no more than 20 li
 
 We wanted a project that uses very little Javascript but still with a very fun application. The excuse generator takes
 20 lines of code, is super simple to understand and is the perfect first project for any beginner developer.
-
-## Instructions
-
-Please create a small website that generates an excuse each time a button is pressed, it has to look like this: [Checkout the demo animation](https://github.com/breatheco-de/tutorial-project-excuse-generator-javascript/blob/master/preview.gif?raw=true).
-
-## Discuss with your classmates the strategy first
-
-How can we generate an excuse? How are sentences build?
-
-![Excuse generator explanation](https://github.com/breatheco-de/tutorial-project-excuse-generator-javascript/blob/master/explanation.gif?raw=true)
-
-The idea is to generate each part of the sentence randomly to come up with great excuses!
-
-## 🌱  How to start this project
-
-Do not clone this repository.
-
-The first step to start coding is cloning the [vanillajs boilerplate](https://github.com/4GeeksAcademy/vanillajs-hello) on your local computer or gitpod.
-
-a) If using Gitpod (recommended) you can clone the boilerplate by [clicking here](https://github.com/4GeeksAcademy/vanillajs-hello).  
-b) If working locally type the following command from your command line: `git clone https://github.com/4GeeksAcademy/vanillajs-hello`.  
-
-💡 Important: Remember to create a new repository, update the remote (`git remote set-url origin <your new url>`), and upload the code to your new repository using `add`, `commit` and `push`.
 
 ## Hint
 
