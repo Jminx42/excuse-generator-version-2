@@ -5,10 +5,10 @@ import "./style.css";
 import "./assets/img/rigo-baby.jpg";
 import "./assets/img/4geeks.ico";
 
-let who = ["The dog", "My grandma", "His turtle", "My bird", "Her llama"];
-let action = ["ate", "peed", "crushed", "broke", "stole"];
-let what = ["my homework", "the keys", "the car", "the trampoline"];
-let when = [
+const who = ["The dog", "My grandma", "His turtle", "My bird", "Her llama"];
+const action = ["ate", "peed", "crushed", "broke", "stole"];
+const what = ["my homework", "the keys", "the car", "the trampoline"];
+const when = [
   "before the class",
   "right on time",
   "when I finished",
@@ -18,15 +18,25 @@ let when = [
 ];
 
 const randomItemOfArray = arr => arr[Math.floor(Math.random() * arr.length)];
-const randomExcuse =
-  randomItemOfArray(who) +
-  " " +
-  randomItemOfArray(action) +
-  " " +
-  randomItemOfArray(what) +
-  " " +
-  randomItemOfArray(when);
-window.onload = () => {
-  let excuse = document.getElementById("excuse");
-  return (excuse.innerHTML = randomExcuse);
+const randomExcuse = () => {
+  return (
+    randomItemOfArray(who) +
+    " " +
+    randomItemOfArray(action) +
+    " " +
+    randomItemOfArray(what) +
+    " " +
+    randomItemOfArray(when)
+  );
 };
+
+window.onload = () => {
+  document.getElementById("excuse").innerHTML = randomExcuse();
+};
+
+document
+  .querySelector("#button")
+  .addEventListener(
+    "click",
+    () => (document.getElementById("excuse").innerHTML = randomExcuse())
+  );

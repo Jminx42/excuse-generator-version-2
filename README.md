@@ -5,6 +5,12 @@
 
 Code can be found in "src" file.
 
+## Before you being
+Install the packages by typing: npm install.
+
+## How do I run my website to see live changes?
+Type on the command line $ npm run start and type localhost on the browser.
+
 Disneyland for procrastinators and lazy people. 
 
 This project is ideal for avoiding someone annoying, it takes no more than 20 lines of code and it can save you for the rest of your life!
